@@ -1,72 +1,155 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Personal Website - JBB</title>
-    <link rel="stylesheet"  type="text/css" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Personal Website - JBB</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- CSS stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@5.2.0/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</head>
+
+</head>
+
+<body>
+
+  <!-- Home Page Section -->
+
+
+  <section id="Home-page">
+
+    <!-- Navbar model for SolOn Angola Website -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-color">
+      <div class="container-fluid" id="navbar-div">
+        <a class="navbar-brand avatar-image" href="#Home-page"> <img src="images/Avatar-José-modified.png" class="avatar-image" alt="avatar-image">Jb_BANTU</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Presentaion">About</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="https://jose-bantu.blogspot.com/" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <!-- <li><a class="dropdown-item" href="#">Art and Sport</a></li> -->
+                <li><a class="dropdown-item" href="https://jose-bantu.blogspot.com/">Sciences and Technologies</a></li>
+                <!-- <li><a class="dropdown-item" href="#">Metaphysics and Philosophy</a></li>
+                <li><a class="dropdown-item" href="#"> Personnal development</a></li>
+                <li><a class="dropdown-item" href="#">Others</a></li> -->
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"  href="https://www.fiverr.com/jose_bantu?up_rollout=true">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact">Contacts</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- <form class="d-flex ms-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form> -->
+      </div>
+    </nav>
+
     <div class="top-container">
-      <img class ="top-cloud" src="images/cloud.png" alt="cloud-img" style="margin-left:400px">
-      <h1>I'm José.</h1>
-      <h3><p class="p-top-container"><em>Founder and CEO of <strong><a href="https://www.facebook.com/SolOnline1">SolOn Angola</a>society</strong>, as well as CTO of CryptoLab</em>. Moreover,I am freelancer Website Developer.</p></h3>
-      <img class ="bottom-cloud" src="images/cloud.png" alt="cloud-img">
-      <img class = "mountain" src="images/mountain.png" alt="mountain-img">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img" style="margin-left:400px">
+      <h1 class="presentation">I'm José.</h1>
+      <h3>
+        <p class="p-top-container"><em>Founder and CEO of <strong><a href="https://www.facebook.com/SolOnline1">SolOn Angola</a></strong>start-up, as well as CTO of <strong> CryptoLab </strong> i-tech start-up</em>. Moreover,I am freelancer Website Developer.</p>
+      </h3>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img class="mountain" src="images/mountain.png" alt="mountain-img">
     </div>
+
+  </section>
+
+
+  <!-- Presentation Section -->
+
+  <section id="Presentaion">
 
     <div class="middle-container">
       <div class="profile">
-        <img class = "profile" src="images/profileHTML.png" alt="José profile picture" width="170px" height="170px">
+        <img class="profile" src="images/profileHTML.png" alt="José profile picture" width="170px" height="170px">
         <div class="Perso-presetation">
-        <h2>Hello!</h2>
-        <p class="intro">I am Ph.D in Microelectronics and medical instrumentation associated with <a href="https://fr.wikipedia.org/wiki/AI">AI</a>. Furthermore, I am Web Developer,
-        I was partner in a start-up project about medical devices designing and Data sciences. I have good skills in multidisciplinary projets,industrial, mainly for the complex systems modelling and numerical simulations.
-        I worked on multidisciplinary, medical engineering projects for 3 years.  I ❤️ <a class="dance-art" href="https://www.instagram.com/josebernardo6u/">dance</a> and feel free when I am on the dance floor.<br>
-        I am really motivated to start a new challenge. Interested in experimental measurements and microtechnologies, I can not wait  to start a new position as an industrial junior projet manager.</p>
+          <h2>Hello!</h2>
+          <p class="intro">I am Ph.D in Microelectronics and medical instrumentation associated with <a href="https://fr.wikipedia.org/wiki/AI">AI</a>. Furthermore, I am Web Developer,
+            I was partner in a start-up project about medical devices designing and Data sciences. I have good skills in multidisciplinary projets,industrial, mainly for the complex systems modelling and numerical simulations.
+            I worked on multidisciplinary, medical engineering projects for 3 years. I ❤️ <a class="dance-art" href="https://www.instagram.com/josebernardo6u/">dance</a> and feel free when I am on the dance floor.<br>
+            I am really motivated to start a new challenge. Interested in experimental measurements and microtechnologies, I can not wait to start a new position as an industrial junior projet manager.</p>
         </div>
       </div>
       <hr>
       <div class="skills">
         <h2>My Skills.</h2>
         <div class="skill-row">
-          <img img class="sciences-des-donnes" src="images/science-des-donnees.png" alt="sciences-des-donnes-image" >
+          <img img class="sciences-des-donnes" src="images/science-des-donnees.png" alt="sciences-des-donnes-image">
           <h3>Data Sciences & Engineering</h3>
-          <p class="DS-skill-description">I worked for 3 years in a simulation platform development, to modelize and predict the perfomance of a multiparameters systems, thancks to a simulation datas and a ANN model trainig and test. I have been working in a personal projet about bot developement for intelegints investiments on the crypto curency stock market. </p>
+          <p class="DS-skill-description">I worked for 3 years in a simulation platform development, to modelize and predict the perfomance of a multiparameters systems, thancks to a simulation datas and a ANN model trainig and test. I have been
+            working in a personal projet about bot developement for intelegints investiments on the crypto curency stock market. </p>
         </div>
         <div class="skill-row">
-          <img class="RD-Microelectronics" src="images/science-des-donnees-color.png" alt="microelectronics-image" >
+          <img class="RD-Microelectronics" src="images/science-des-donnees-color.png" alt="microelectronics-image">
           <h3>R&D engineer in Microelectronics & Microfabrication </h3>
           <p class="MElecs-skill-description">I developed an Implanteble microprobe, for medical applications, thanks to the microelectronics manufacturing technology and numercial modelling softwares for the device design and optimization. </p>
         </div>
         <div class="skill-row">
-          <img class="web-app-development" src="images/web-app-development.png" alt="web-app-development-image" >
+          <img class="web-app-development" src="images/web-app-development.png" alt="web-app-development-image">
           <h3> Website Developer</h3>
-          <p class="code-skill-description">I started learn code because I wanted to build my own Website. Since this moment I have been leanring and helping people to build himself Website, as well as build the one of some societies. Ictually, I have developed the SolOn Angola Website, and taught more than 10 people how to build his own Website and get some base about Data sciences with MATLAB.</p>
+          <p class="code-skill-description">I started learn code because I wanted to build my own Website. Since this moment I have been leanring and helping people to build himself Website, as well as build the one of some societies. Ictually, I
+            have developed the SolOn Angola Website, and taught more than 10 people how to build his own Website and get some base about Data sciences with MATLAB.</p>
         </div>
       </div>
       <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3> If you believe that we can colaborate together, well I do.</h3>
-        <p class="contact-message">Perhaps You have an industrial projet, Pluridiciplinary projets or offer, furthermore a website development projet... <br> I strongly believe that, we can work together!</p>
-        <a class="btn" href="mailto:josebernardofisico@gmail.com">CONTACT ME</a>
-      </div>
     </div>
+  </Section>
 
-
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/jose-bernardo-research-engineer/">LinkedIn</a>
-      <a class="footer-link" href="https://twitter.com/JosProfeta9397">Twitter</a>
-      <a class="footer-link" href="https://facebook.com/jose.a.bernardo.9/">facebook</a>
-      <a class="footer-link" href="https://instagram.com/jb_bantu">Instagram</a>
-      <a class="footer-link" href="https://jbernardo6u.github.io/cv/">Website</a>
-      <p class="copyright">©2022 José Bantu @The App Developer.</p>
+  <!-- Contacts section -->
+  <section id="contact">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3> If you believe that we can colaborate together, well I do.</h3>
+      <p class="contact-message">Perhaps You have an industrial projet, Pluridiciplinary projets or offer, furthermore a website development projet... <br> I strongly believe that, we can work together!</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
     </div>
+  </Section>
 
-  </body>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jose-bernardo-research-engineer/">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/JosProfeta9397">Twitter</a>
+    <a class="footer-link" href="https://facebook.com/jose.a.bernardo.9/">facebook</a>
+    <a class="footer-link" href="https://instagram.com/jb_bantu">Instagram</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">©2022 José Bantu @The Website Developer.</p>
+  </div>
+
+</body>
+
 </html>
