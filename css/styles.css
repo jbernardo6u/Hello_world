@@ -59,18 +59,48 @@ a:hover{
   color: #EAF6F6;
 }
 
+
+/* Home Section */
+
+.avatar-image {
+  width:20%;
+  height: 20%;
+}
+  /* background-color: white; */
+.presentation {
+  margin-bottom: 2%
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 100px;
+  padding: 10% 15% 5% 15%;
 }
 
+/* Navbar Section */
 
+.navbar-bg-color {
+  background-color: #66BFBF;
+  position: fixed;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  margin: 0 auto 0 auto;
+}
 .middle-container {
-margin: 100px 0;
+margin-top: 0;
+}
+a.avatar-image {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      margin:auto 15% auto 10%;
+      width: 200px;
+
 }
 
-
+img.profile {
+  margin-top: 10%;
+}
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
@@ -95,7 +125,11 @@ margin: 100px 0;
 
 .contact-message {
   width: 40%;
-  margin:40px auto 60px auto;
+  margin:40px auto 50px auto;
+
+}
+.contact-me {
+  margin-bottom :40px;
 
 }
 .copyright {
