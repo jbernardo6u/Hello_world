@@ -62,10 +62,10 @@ a:hover{
 
 /* Home Section */
 
-.avatar-image {
+/* .avatar-image {
   width:20%;
   height: 20%;
-}
+} */
   /* background-color: white; */
 .presentation {
   margin-bottom: 2%
@@ -99,7 +99,7 @@ a.avatar-image {
 }
 
 img.profile {
-  margin-top: 10%;
+  margin-top: 8%;
 }
 .bottom-container {
   background-color: #66BFBF;
